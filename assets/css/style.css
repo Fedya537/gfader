@@ -1,0 +1,32 @@
+.center{
+    text-align: center;
+}
+body{
+    background: linear-gradient(45deg, blue, yellow, rgb(225, 0, 221));
+    margin: 25px;
+    padding: 15px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+    grid-gap: 20px;
+    grid-template-areas: "main   footer   aside";
+    padding: 20px;
+    border: 5px solid palevioletred;
+}
+footer{
+    grid-area: footer;
+}
+aside{
+    grid-area: aside;
+}
+main{
+    grid-area: main;
+}
+img{
+    border-radius: 180px;
+}
+.hhht{
+    text-align: center;
+}
